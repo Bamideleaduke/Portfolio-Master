@@ -136,8 +136,11 @@ flex-basis: 75%;
     border: 1.5px solid #ddbea9;
     margin: 0.2rem 0.1rem;
     font-weight: 500;
-  color: #6a040f;
-
+   color: #6a040f;
+ }
+ #filterBtn button:hover{
+  background-color: #6a040f;
+  color:#ddbea9 ;
  }
  #filterBtn button:active{
     background-color: #cb997e;
@@ -225,15 +228,10 @@ flex-basis: 75%;
   background-color:transparent;
   color: #cb997e;margin-right: 10px;
 }
-.dbtn:hover{
-  background: #cb997e;
-  color: #ddbea9;
-}
-.cbtn:hover{
+.dbtn:hover,.cbtn:hover{
   color: #cb997e;
   background-color: #ddbea9;
 }
-
 .swiper-navBtn{
   color: #ddbea9;
   transition: color 0.3s ease;
