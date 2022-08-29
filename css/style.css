@@ -300,7 +300,8 @@ flex-basis: 75%;
 footer{
     text-align: center;
     padding: 5rem 0 0 0;
-    color: #fff1e6   ;
+    /* color: #fff1e6   ; */
+    color: #6a040f;
 }
 
 /* Desktop view styles */
