@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+          maximum-scale=5" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <!-- swiper -->
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <!-- custom styling -->
+      <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio Master</title>
+</head>
+    <body>
+      <header>
+        <div class="hero">
+          <div class="profile-img">
+            <!-- <img src="./asset/pp.jpg" alt="profile picture"> -->
+          </div>
+          <div class="profile-info">
+            <div class="role">
+              <div class="name">
+                <h2>Bamidele Barakat</h2>
+                <p>Front-end developer</p>
+              </div>
+              <div class="contact">
+                <p> <span class="material-icons">&#xe0be;</span> bamideleaduke@gmail.com</p>
+                <p><span class="material-icons">&#xe0b0;</span>(+234) 000 000 000</p>
+              </div>
+            </div>
+            <div class="bio">
+              <p>Barakat is a Front-end Developer based in Lagos state, Nigeria. he has a passion for software deveopment and loves to create a beautiful wedsites designs. She is currently building her front-end web development skill and aspire to become a great fullstack web developer.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="skills">
+          <h2>FRONT END</h2>
+         <div class="skill">
+          <div class="skill-item">
+            <label for="react">HTML</label>
+            <div class="level">
+              <div class="degree"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <label for="react">CSS</label>
+            <div class="level">
+              <div class="degree high"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <label for="react">JAVASCRIPT</label>
+            <div class="level">
+              <div class="degree low"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <label for="react">REACT NATIVE</label>
+            <div class="level">
+              <div class="degree low"></div>
+            </div>
+        </div>
+          <div class="skill-item">
+            <label for="react">GIT & GITHUB</label>
+            <div class="level">
+              <div class="degree high"></div>
+            </div>
+        </div>
+          <div class="skill-item">
+            <label for="react">TAILWIND</label>
+            <div class="level">
+              <div class="degree"></div>
+            </div>
+        </div>
+         </div>
+        </section>
+
+        <section class="projects">
+          <div class="projectFilter">
+            <h2>Projects (<span class="number">3</span>)</h2>
+            <div id="filterBtn">
+              <button class="btn active" onclick="filterSelection('all')">All</button>
+              <button class="btn" onclick="filterSelection('html-css')" >Html & Css</button>
+              <button class="btn" onclick="filterSelection('javascript')">Javascript</button>
+              <button class="btn" onclick="filterSelection('tailwind')">Tailwind</button>
+            </div>
+          </div>
+
+          <div  class="filter-slide">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                       
+                        <div class="card swiper-slide html-css">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/404-error.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Error 404</h2>
+                                <p class="description">In this project, I work with HTML and CSS to create a responsive page. This page is similar with instagram profile page. The design is a class assessment from GIT bootcamp.</p>
+    
+                                <div class="demo-btn">
+                                    <button class="dbtn">Demo</button>
+                                    <button class="cbtn">code</button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide html-css">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/team.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Team Page</h2>
+                                <p class="description">In this project, I work with HTML and CSS to create a responsive page. This page is similar with instagram profile page. The design is a class assessment from GIT bootcamp.</p>
+    
+                                <div class="demo-btn">
+                                    <button class="dbtn">Demo</button>
+                                    <button class="cbtn">code</button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide javascript">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/furniture.png"alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Furniture Page</h2>
+                                <p class="description">In this project, I work with HTML and CSS to create a responsive page. This page is similar with instagram profile page. The design is a class assessment from GIT bootcamp.</p>
+    
+                                <div class="demo-btn">
+                                    <button class="dbtn">Demo</button>
+                                    <button class="cbtn">code</button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide tailwind">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/recipe.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Recipe Page</h2>
+                                <p class="description">In this project, I work with HTML and CSS to create a responsive page. This page is similar with instagram profile page. The design is a class assessment from GIT bootcamp.</p>
+    
+                                <div class="demo-btn">
+                                    <button class="dbtn">Demo</button>
+                                    <button class="cbtn">code</button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide html-css javascript">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/nature.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">My Gallery</h2>
+                                <p class="description">In this project, I work with HTML and CSS to create a responsive page. This page is similar with instagram profile page. The design is a class assessment from GIT bootcamp.</p>
+    
+                                <div class="demo-btn">
+                                    <button class="dbtn">Demo</button>
+                                    <button class="cbtn">code</button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide tailwind javascript ">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/checkout.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Checkout Page</h2>
+                                <p class="description">In this project, I work with HTML and CSS to create a responsive page. This page is similar with instagram profile page. The design is a class assessment from GIT bootcamp.</p>
+    
+                                <div class="demo-btn">
+                                    <button class="dbtn">Demo</button>
+                                    <button class="cbtn">code</button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide tailwind javascript ">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/home-page.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Edie Home Page</h2>
+                                <p class="description">In this project, I work with HTML and CSS to create a responsive page. This page is similar with instagram profile page. The design is a class assessment from GIT bootcamp.</p>
+    
+                                <div class="demo-btn">
+                                    <button class="dbtn">Demo</button>
+                                    <button class="cbtn">code</button>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div> 
+        </section>
+        
+        <section class="cert">
+          <h2>Certification/Experience</h2>
+          <div class="certificate">
+            <div class="certItem">
+              <div class="certImg">
+                <img src="./asset/learn-to-code.png" alt="certificate">
+              </div>
+              <div class="certDetails">
+                <h3 class="pname">Frontend Development Certification</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, </p>
+              </div>
+            </div>
+            <div class="certItem">
+              <div class="certImg">
+                <img src="./asset/quote-generator.png" alt="certificate">
+              </div>
+              <div class="certDetails">
+                <h3 class="pname">Design Thinking and Story Telling</h3>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, modi!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+          <footer>&copy;bamideleaduke_devchallenge.io</footer>
+  <!-- swiper -->
+        <script src="javascript/swiper-bundle.min.js"></script>
+  <!-- javascript -->
+  <script src="./javascript/index.js"></script>
+      </body>
+</html>
