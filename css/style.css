@@ -211,27 +211,37 @@ flex-basis: 75%;
   font-weight: 100;
 }
 .demo-btn{
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
-.dbtn,.cbtn{
+
+.dbtn{
+  text-decoration: none;
   border: 2px solid #cb997e;
-  font-size: 16px;
-  color: #ddbea9;
-  font-weight: 500;
   padding: 4px 16px;
   background-color: #cb997e;
   border-radius: 6px;
-  cursor: pointer;
-  transition: all 1s ease;
+  margin-right: 10px;
+  color: #ddbea9;
+
+
 }
-.dbtn{
-  background-color:transparent;
-  color: #cb997e;margin-right: 10px;
-}
-.dbtn:hover,.cbtn:hover{
+.dbtn:hover{
   color: #cb997e;
   background-color: #ddbea9;
 }
+.cbtn{
+  text-decoration: none;
+  border: 2px solid #ddbea9;
+  padding: 4px 16px;
+  background-color: #ddbea9;
+  border-radius: 6px;
+  color: #cb997e;
+}
+.cbtn:hover{
+  color: #ddbea9;
+  background-color: #cb997e;
+}
+
 .swiper-navBtn{
   color: #ddbea9;
   transition: color 0.3s ease;
