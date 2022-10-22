@@ -33,8 +33,8 @@ flex-basis: 75%;
 .profile-img{
     width: 100%;
     height: 250px;
-    background: url(../asset/photo5.png);
-    /* background-size: cover; */
+    background: url(../asset/b2.jfif);
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 1rem;
     border-radius: 15px;
